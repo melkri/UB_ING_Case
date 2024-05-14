@@ -1,0 +1,14 @@
+Model_Specs,Model_Name,In_Time_Train_Gini,In_Time_Test_Gini,Out_of_Time_Test_Gini,In_Time_Train_Confusion_Matrix,In_Time_Test_Confusion_Matrix,Out_of_Time_Test_Confusion_Matrix
+"LogisticRegression(C=1, class_weight='balanced', penalty='l1', random_state=42,
+                   solver='liblinear')",Lo_1,0.8804772792062086,0.8760688419799552,0.83264635301429,"[[56008 11515]
+ [  618  4860]]","[[23811  5128]
+ [  266  2082]]","[[17345  3202]
+ [  179   744]]"
+"{'C': 0.001, 'class_weight': None, 'max_iter': 100, 'penalty': 'l1', 'solver': 'saga'}",Lo_2,0.8343411221306998,0.8301790648990686,0.7852265458454495,,,"[[20510    37]
+ [  871    52]]"
+"{'C': 0.001, 'class_weight': None, 'max_iter': 100, 'penalty': 'l2', 'solver': 'liblinear'}",Lo_3,0.8726006559651462,0.8697183519372507,0.8230822539830331,,,"[[20475    72]
+ [  759   164]]"
+"{'C': 0.001, 'class_weight': None, 'max_iter': 100, 'penalty': 'l2', 'solver': 'saga'}",Lo_4,0.8698907440822958,0.8665909665004687,0.8217874396364522,,,"[[20507    40]
+ [  814   109]]"
+"{'C': 0.001, 'class_weight': None, 'max_iter': 500, 'penalty': 'l1', 'solver': 'liblinear'}",Lo_5,0.842313795290728,0.8383242304952911,0.7915077874730667,,,"[[20505    42]
+ [  846    77]]"

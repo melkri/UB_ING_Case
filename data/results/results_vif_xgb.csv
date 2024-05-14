@@ -1,0 +1,23 @@
+Model_Specs,Model_Name,In_Time_Train_Gini,In_Time_Test_Gini,Out_of_Time_Test_Gini,In_Time_Train_Confusion_Matrix,In_Time_Test_Confusion_Matrix,Out_of_Time_Test_Confusion_Matrix
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.7, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=0.1, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=3, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=200, n_jobs=None,
+              num_parallel_tree=None, random_state=42, ...)",XG_1,0.9461745829907933,0.9160302705691279,0.8862283396347175,"[[66986   537]
+ [ 2135  3343]]","[[28623   316]
+ [ 1004  1344]]","[[20395   152]
+ [  552   371]]"
+"{'colsample_bytree': 0.7, 'gamma': 0.1, 'learning_rate': 0.1, 'min_child_weight': 2, 'n_estimators': 200, 'reg_alpha': 0.1, 'subsample': 0.9}",XG_2,0.9476974830049527,0.9150759339697854,0.886434510187541,,,"[[20392   155]
+ [  549   374]]"
+"{'colsample_bytree': 0.7, 'gamma': 0.1, 'learning_rate': 0.1, 'min_child_weight': 2, 'n_estimators': 200, 'reg_alpha': 0.2, 'subsample': 0.7}",XG_3,0.9479410493568277,0.9153844016489363,0.8844690878893466,,,"[[20395   152]
+ [  556   367]]"
+"{'colsample_bytree': 0.7, 'gamma': 0.1, 'learning_rate': 0.1, 'min_child_weight': 2, 'n_estimators': 200, 'reg_alpha': 0.2, 'subsample': 0.9}",XG_4,0.9476455217506592,0.9155940301614278,0.8858062963854083,,,"[[20387   160]
+ [  556   367]]"
+"{'colsample_bytree': 0.7, 'gamma': 0.1, 'learning_rate': 0.1, 'min_child_weight': 3, 'n_estimators': 200, 'reg_alpha': 0.1, 'subsample': 0.7}",XG_5,0.9469106998587806,0.9142400101064372,0.8850027585198135,,,"[[20388   159]
+ [  553   370]]"
